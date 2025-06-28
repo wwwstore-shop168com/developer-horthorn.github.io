@@ -1,0 +1,535 @@
+ body{
+    margin: 0;
+  }
+ div{
+    box-sizing: border-box;
+ }
+ .container{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+     background-color: aliceblue;
+ }
+ .logo{
+    width: 100%;
+    height: 70px;
+    float: left;
+    background-color:blanchedalmond;
+  }
+.logo .img-box{
+    width: 25%;
+    height: 100%;
+    float: right;
+    
+  }
+.img-box img{
+    width: 100%;
+    height: 100%;
+    float: left;
+  }
+ .popMenu{
+    width: 280px;
+    height: 100%;
+    position: fixed;
+    background-color: teal;
+    left: -282px;
+    transition: 0.5s;
+    z-index: 1;
+  }
+   .popMenu ul li{
+    float: left;
+    width: 100%;
+ }
+  .popMenu ul li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    border-bottom: 1px solid rgb(0, 59, 56) ;
+ }
+   .popMenu ul li a:hover{
+    background-color: tomato;
+  }
+   .popup{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0,0.5);
+  }
+
+  .menu{
+    width: 100%;
+    float: left;
+    background-color: black; 
+   }
+  .menu ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 20px;
+   }
+   .menu ul li{
+    float: left;
+   }
+    .menu ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+    
+   }
+    .menu ul li a:hover{
+        background-color: yellow;
+        color: black;
+        cursor: pointer;
+    }
+    .box1{
+        width: 70%;
+        float: left;
+        margin-top: 10px;
+        background-color: white;
+        border: 2px solid thistle;
+    }
+    .box1-1{
+        width: 100%;
+        float: left;
+        margin-bottom: 1px;
+       
+     }
+    .box1-1-img{
+        width: 60%;
+        height: 250px;
+        float: left;
+     }
+     .box1-1-img:hover{
+      padding: 10px;
+      background-color: bisque;
+      cursor: pointer;
+     }
+    .box1-1 .box1-1-img img{
+        width: 100%;
+        height: 100%;
+        float: left;
+    }
+    .box1-1-txt{
+        width: 40%;
+        height: 250px;
+        float: left;
+    }
+    .box1-1-txt p{
+        margin: 0;
+        font-size: 16px;
+        text-align: justify;
+     }
+    .box2{
+        float: left;
+        margin-top: 10px;
+        width: 28%;
+        margin-left: 2%;
+    }
+    .txt{
+        width: 50%;
+      }
+     .box2 .txt h1{
+        color: red;
+     }
+    .box2 .txt h1{
+       margin: 0;
+     }
+     .video{
+        width: 60%;
+        height: 150px;
+        margin-top: 9px;
+     }
+     .box2 .video iframe{
+        height: 100%;
+        width: 100%;
+        border-radius: 10px;
+     }
+     .logo .img-box1{
+        width: 10%;
+        height:100% ;
+        margin: auto;
+     }
+      .logo .img-box1 img{
+        width: 100%;
+        height: 100%;
+        }
+        .container1{
+            width: 50%;
+            margin: auto;
+            overflow: hidden;
+            background-color:white;
+        }
+        .notvigation{
+            width: 100%;
+            height: 100px;
+            float: left;
+         }
+        .notvigation img{
+            width: 100%;
+            height: 100%;
+            float: left;
+        }
+     .box-book{
+       width: 100%;
+       float: left;
+       margin-top: 10px;
+     }
+     .box-book1{
+      width: 24.25%;
+      height: 300px;
+      float: left;
+      margin-right: 1%;
+    
+     }
+     .box-book1-img{
+       width: 100%;
+       height: 80%;
+       float: left;
+     }
+     .box-book1 .box-book1-img img{
+      width: 100%;
+      height: 100%;
+      float: left;
+    }
+      .box-book1-txt{
+      width: 100%;
+      height: 20%;
+      background-color:green;
+      border-radius: 10px;
+      float: left;
+      margin-top: 4px;
+     }
+      .box-book1-txt:hover{
+        background-color: aquamarine;
+        color: black;
+        opacity: 0.5;
+        cursor: pointer;
+      }
+     .box-book1 .box-book1-txt h1{
+      margin: 0;
+      text-align: center;
+      color: goldenrod;
+       }
+
+     .box-book1:last-child{
+      margin-right: 0;
+
+     }
+     .book{
+      width: 100%;
+      float: left;
+      margin-bottom: 10px;
+      } 
+      .contact{
+        width: 100%;
+        overflow: hidden;
+        margin: auto;
+        background-color: teal;
+      } 
+      .box-contact{
+        width: 10%;
+        float: left;
+        background-color: blue;
+         }
+         .box-contact:hover{
+          background-color: white;
+          color: blue;
+          cursor: pointer;
+          opacity: 0.5;
+         }
+        .box-phone{
+        width: 28%;
+        height: 60px;
+        float: left;
+        margin-left: 2%; 
+      }
+      .box-facebook-txt{
+        width: 75%;
+        height: 100%;
+        float: left;
+      } 
+      .box-phone .box-facebook-txt h2{
+         font-size: 15px;
+         text-align: center;
+         margin-top: 20px;
+         
+       }
+      .box-facebook-logo{
+        width: 25%;
+        height: 100%;
+        background-color:white;
+        float: left;
+        border-radius: 50%;
+      }
+      .box-facebook-logo img{
+        width: 100%;
+        height: 100%;
+        float: left;
+      } 
+      /* responsive */
+    @media only screen and (max-width:600px) {
+        body{
+       margin: 0;
+       
+        
+         }
+   div{
+    box-sizing: border-box;
+    }
+       .container{
+        width: 100%;
+
+       }
+        .logo{
+    width: 100%;
+    height: 70px;
+    float: left;
+    background-color:blanchedalmond;
+  }
+ .logo .img-box{
+    width: 25%;
+    height: 100%;
+    float: right;
+    
+   }
+   .img-box img{
+    width: 100%;
+    height: 100%;
+    float: left;
+  }
+     .popMenu{
+    width: 280px;
+    height: 100%;
+    position: fixed;
+    background-color: teal;
+    left: -282px;
+    transition: 0.5s;
+    z-index: 1;
+  }
+   .popMenu ul li{
+    float: left;
+    width: 100%;
+ }
+  .popMenu ul li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    border-bottom: 1px solid rgb(0, 59, 56) ;
+ }
+   .popMenu ul li a:hover{
+    background-color: tomato;
+  }
+   .popup{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0,0.5);
+  }
+
+  .menu{
+    width: 100%;
+    float: left;
+    background-color: black; 
+     
+  }
+   .menu ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 20px;
+   }
+   .menu ul li{
+    float: left;
+   }
+    .menu ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 10px;
+    color: white;
+    
+   }
+   .menu ul li a:hover{
+        background-color: yellow;
+        color: black;
+        cursor: pointer;
+    }
+       .box1{
+        width: 70%;
+        float: left;
+        margin-top: 10px;
+        background-color: white;
+        border: 2px solid thistle;
+         }
+        .box2{
+        float: left;
+        margin-top: 10px;
+        width: 28%;
+        margin-left: 2%;
+        }
+         .box1-1{
+         width: 100%;
+         float: left;
+         margin-bottom: 1px;
+         
+         }
+        .box1-1 .box1-1-img img{
+        width: 100%;
+        height: 100%;
+        float: left;
+       }
+       .box1-1-txt{
+        width: 40%;
+        height: 250px;
+        float: left;
+    }
+      .box1-1-txt p{
+        margin: 0;
+        font-size: 0.5rem;
+        text-align: justify;
+     } 
+      .box2{
+        float: left;
+        margin-top: 10px;
+        width: 28%;
+        margin-left: 2%;
+    } 
+    .txt{
+        width: 50%;
+      }
+       .box2 .txt h1{
+        margin: 0;
+       font-size: 1rem;
+     }
+      .video{
+        width: 100%;
+        height: 150px;
+        margin-top: 9px;
+     } 
+      .box2 .video iframe{
+        height: 100%;
+        width: 100%;
+        border-radius: 10px;
+     } 
+      .container1{
+            width: 50%;
+            margin: auto;
+            overflow: hidden;
+            background-color:white;
+       }
+      .notvigation{
+            width: 100%;
+            height: 100px;
+            float: left;
+         }
+           .notvigation img{
+            width: 100%;
+            height: 100%;
+            float: left;
+        }
+      .box-book{
+        width: 100%;
+        float: left;
+       margin-top: 10px;
+     }
+      .box-book{
+       width:100%;
+       float: left;
+       margin-top: 10px;
+     }
+      .box-book1-img{
+       width: 100%;
+       height: 80%;
+       float: left;
+      }
+      .box-book1 .box-book1-img img{
+      width: 100%;
+      height: 100%;
+      float: left;
+    }
+    .box-book1-txt{
+      width: 100%;
+      height: 10%;
+      background-color:green;
+      border-radius: 10px;
+      float: left;
+      margin-top: 4px;
+     }
+       .box-book1-txt:hover{
+        background-color: aquamarine;
+        color: black;
+        opacity: 0.5;
+        cursor: pointer;
+      }
+       .box-book1 .box-book1-txt h1{
+        margin: 0;
+        text-align: center;
+        font-size: 0.5rem;
+        color: goldenrod;
+        margin-top: 10%;
+       
+       }
+        .box-book1:last-child{
+         margin-right: 0;
+      }
+        .contact{
+        width: 100%;
+        margin: auto;
+        background-color: teal;
+      }
+       .box-contact{
+        width: 10%;
+        float: left;
+        background-color: blue;
+        margin-top: 9px;
+         }
+         .box-contact h2{
+          font-size: 0.6rem;
+          margin-top: 2px;
+         }
+           .box-phone{
+            width: 28%;
+            height: 60px;
+            float: left;
+           margin-left: 2%;  
+      }
+       .box-facebook-txt{
+         width: 75%;
+        height: 100%;
+        float: left;
+      }
+       .box-phone .box-facebook-txt h2{
+         font-size: 0.05rem;
+          margin-top: 20px;
+         
+       }
+        .box-phone h2{
+          font-size: 0.3rem;
+          margin-top: 10px;
+        }
+        .box-facebook-logo{
+        width: 25%;
+        height: 100%;
+        background-color:white;
+        float: left;
+        border-radius: 50%;
+      }
+      .box-facebook-logo img{
+        width: 100%;
+        height: 100%;
+        float: left;
+      } 
+    }
+
+  
+
+   
+ 
